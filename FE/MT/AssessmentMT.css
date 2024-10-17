@@ -1,0 +1,348 @@
+.selfpeer-1 .title1 {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.selfpeer-rc-mt{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
+
+.selfpeer-item {
+    border: 1px solid #ccc;
+    flex:none;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    margin-left: 2%;
+    padding: 20px;
+    width: 27%;
+    text-align: start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.selfpeer-item .description .selfpeer-text .selfpeer-title{
+    width: 500%;
+    display: flex;
+    
+}
+
+.selfpeer-item .description .selfpeer-text{
+    margin-left: 3%;
+    margin-bottom: 2%;
+    
+    
+}
+
+.selfpeer-item .TwinButton {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex: 1%;
+    flex-direction: row;
+    gap: 7px; /* Jarak antar tombol */
+    margin-top: 5%;
+}
+
+.self-button-mt, .peer-button-mt{
+    width: 49%;
+    height: 49%;
+    flex: 0 0 49%;
+}
+
+
+.selfpeer-item .TwinButton .self-button-mt {
+    width: 180%;
+    height: 10%;
+    margin-left: 3%;
+    border-style: none;
+    background-color: rgb(0, 106, 255);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.selfpeer-item .TwinButton .peer-button-mt {
+    width: 180%;
+    height: 10%;
+    margin-left: 3%;
+    border-style: none;
+    background-color: rgb(0, 106, 255);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.selfpeer-1 .description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3%;
+    
+}
+.selfpeer-img{
+    width: 28%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.selfpeer-box{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.selfpeer-item .TwinButton 
+.self-button-mt:hover {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+.selfpeer-item .TwinButton .peer-button-mt:hover{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+.selfpeer-2 .title2 img, .title3 img{
+    width: 3%;
+    cursor: pointer;
+    margin-right: 1%;
+}
+
+.selfpeer-2 .title2 {
+    margin: 1%;
+    margin-left: 2%;
+    font-size: 20px;
+    align-items:center;
+    display: flex;
+}
+
+.selfpeer-1 .Dropdown .phasetitle{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 2%;
+   
+
+}
+
+.selfpeer-1 .Dropdown .phasetitle .phaseselect{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.selfpeer-3 .table-PL {
+    
+    border-radius: 8px;
+    box-shadow: 0.1 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.selfpeer-3 .title3 {
+    margin: 1%;
+    margin-left: 2%;
+    font-size: 20px;
+    align-items:center;
+    display: flex;
+}
+
+.selfpeer-3 .title3 h1 {
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.selfpeer-3 .table-PL .table-header {
+    display: flex;
+    background-color: #ffc400;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px 8px 0 0;
+    margin: 0; /* Menghilangkan margin */
+    border: 1px solid #c3c3c3;
+}
+
+.selfpeer-3 .table-PL .table-header div {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.selfpeer-3 .table-PL .peer-list {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c3c3c3;
+    border-top: none; /* Menghilangkan border atas agar menyatu dengan header */
+    border-radius: 0 0 8px 8px;
+}
+
+.selfpeer-3 .table-PL .peer-list .peer-item {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+    margin: 0; /* Menghilangkan margin */
+}
+
+.selfpeer-3 .table-PL .peer-list .peer-item:hover {
+    background-color: #f1f1f1;
+}
+
+.selfpeer-3 .table-PL .peer-list .peer-item.disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.selfpeer-3 .table-PL .peer-list .peer-item div {
+    flex: 1;
+    text-align: center;
+}
+
+
+.selfpeer-item .selfpeer-title{
+    margin-right: 60% ;
+    align-items:start;
+}
+
+.selfpeer-item  .selfpeer-batch {
+    font-size: 16px;
+    align-items:start;
+    margin-right: 70%;
+    width: 50%;
+}
+
+.selfpeer-2 .question-container {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    padding: 1%;
+    border: 1px solid #DEE2E6;
+}
+
+.selfpeer-2 .buttonPosition {
+    margin-left: 20%;
+}
+
+.selfpeer-2 .btnGhost {
+    border: 1px solid #D4D4D4;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: transparent;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color  ease;
+    left: 50%;
+}
+
+.selfpeer-2 .btnGhost:hover {
+    background-color: #D4D4D4;
+    color: black;
+}
+
+.btnGhost.selected {
+    background-color: #3A89FD; /* Warna hijau sebagai tanda tombol telah dipilih */
+    color: white;
+}
+
+
+.selfpeer-2 .submitButton {
+    margin-left: 240px;
+}
+
+.selfpeer-2 .submitButton .submit {
+    background-color: #3A89FD;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    font-size: medium;
+    width: 120px;
+}
+
+.selfpeer-2 .submitButton .submit:hover {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+.selfpeer-2 .question-container-scale {
+    background-color: white;
+    float: right;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    width: 300px;
+    height: max-content;
+    border: 1px solid #DEE2E6;
+    font-size: 18px;
+}
+
+.selfpeer-2 .question-container-scale h{
+    margin-left: 7%;
+}
+
+.selfpeer-2 .question-container-scale .numberOne {
+    background-color: #FF0000;
+}
+
+.selfpeer-2 .question-container-scale .numberTwo {
+    background-color: #FF720D;
+}
+
+.selfpeer-2 .question-container-scale .numberThree {
+    background-color: #FFCA0D;
+}
+
+.selfpeer-2 .question-container-scale .numberFour {
+    background-color: #9EFF00;
+}
+
+.selfpeer-2 .question-container-scale .numberFive {
+    background-color: #12FF0D;
+}
+
+.selfpeer-2 .question-container-scale .numberOne,
+.selfpeer-2 .question-container-scale .numberTwo,
+.selfpeer-2 .question-container-scale .numberThree,
+.selfpeer-2 .question-container-scale .numberFour,
+.selfpeer-2 .question-container-scale .numberFive {
+    border-radius: 50%;
+    padding: 3px 9px;
+    width: 3%;
+    text-wrap: nowrap;
+    word-spacing: px;
+    font-size: medium;
+    margin-left: 25px;
+    display: flex;
+}
