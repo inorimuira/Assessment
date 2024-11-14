@@ -1,0 +1,379 @@
+.selfpeer-item-fs {
+    width: 28%;
+    height: 20%;
+    border: 1px solid #ccc;
+    border-radius: 10px;;
+    box-sizing: border-box;
+    text-align: start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    border-top-left-radius: 10; /* Radius kiri atas 0 */
+    border-top-right-radius: 10; /* Radius kanan atas 0 */
+    border-bottom-left-radius: 10px; /* Sesuaikan dengan radius yang diinginkan */
+    border-bottom-right-radius: 10px; /* Sesuaikan dengan radius yang diinginkan */
+    overflow: hidden; /* Untuk memastikan elemen di dalamnya tidak melebihi radius */
+    background: white; /* Warna background bagian utama */
+  }
+  
+  .peer-button-fs {
+    background-color: #3A89FD; /* Warna hitam pada bagian tombol */
+    color: white; /* Warna teks tombol */
+    text-align: center; /* Teks berada di tengah */
+    padding: 15px 0; /* Spasi pada tombol */
+    cursor: pointer; /* Ganti kursor saat mengarah ke tombol */
+    border-bottom-left-radius: 10px; /* Radius kiri bawah */
+    border-bottom-right-radius: 10px; /* Radius kanan bawah */
+    border-top-left-radius: 0; /* Tidak ada radius di bagian atas */
+    border-top-right-radius: 0; /* Tidak ada radius di bagian atas */
+  }
+  
+  .peer-button-fs:hover {
+    background-color: #555; /* Warna saat di-hover untuk efek */
+  }
+  
+
+.selfpeer .title1 {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.selfpeer-container-fs {
+    display: flex;
+    flex: 0%;
+    margin-left: 2%;
+    gap: 3%;
+}
+
+.selfpeer-wrapper-fs {
+    width: 35%;
+    height: 40%;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.selfpeer-img-fs{
+    width: 15%;
+    padding: 10px;
+    margin-left: auto; /* Membuat gambar berada di ujung kanan */
+    height: auto; /* Otomatis menyesuaikan tinggi gambar */
+    float: right;
+}
+
+/* .selfpeer-item-fs {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+} */
+
+.description-fs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.down-arrow{
+    width: 5%;
+    justify-content: right;
+    margin-top: -10%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+.selfpeer-text-fs {
+    display: flex;
+    flex-grow: 1;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 5px;
+    padding: 20px;
+}
+
+.selfpeer-title-fs {
+    flex-grow: 1;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: ellipsis;
+    font-size:18px;
+}
+
+.selfpeer-batch-fs {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: ellipsis;
+}
+
+.progress-circle-fs {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #333;
+    margin-right: 35px;
+    flex-shrink: 0;
+}
+
+.progress-value-fs {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* .selfpeer-img-fs{
+    width: 15%;
+} */
+/* 
+.fs-Button {
+    display: flex;
+    margin-top: 10px;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+
+.peer-button-fs{
+    overflow: visible;
+    text-overflow: ellipsis;
+    align-items: center;
+    background-color: #3A89FD;
+    color: white;
+    justify-content: center;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    border-radius: 4px;   
+}
+
+/* WITHOUT BG */
+
+/* .peer-button-fs:hover{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #D4D4D4;
+    color: black;
+
+}  */
+
+.selfpeer .back-header img{
+    width: 3%;
+    cursor: pointer;
+    margin-right: 1%;
+    align-items: center;
+    position:relative;
+}
+
+.selfpeer .back-header {
+    margin: 1%;
+    margin-left: 2%;
+    font-size: 20px;
+    align-items:center;
+    display: flex;
+}
+
+.selfpeer .Dropdown .phasetitle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.selfpeer .Dropdown .phasetitle .phaseselect{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+}
+
+.selfpeer .table-PL {
+    
+    border-radius: 8px;
+    box-shadow: 0.1 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.selfpeer .table-PL .table-header {
+    display: flex;
+    background-color: #3A89FD;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px 8px 0 0;
+    margin: 0; /* Menghilangkan margin */
+    border: 1px solid #c3c3c3;
+}
+
+.selfpeer .table-PL .table-header div {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.selfpeer .table-PL .peer-list {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c3c3c3;
+    border-top: none; /* Menghilangkan border atas agar menyatu dengan header */
+    border-radius: 0 0 8px 8px;
+}
+
+.selfpeer .table-PL .peer-list .peer-item {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+    margin: 0; /* Menghilangkan margin */
+}
+
+.selfpeer .table-PL .peer-list .peer-item:hover {
+    background-color: #f1f1f1;
+}
+
+.selfpeer .table-PL .peer-list .peer-item.disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.selfpeer .table-PL .peer-list .peer-item div {
+    flex: 1;
+    text-align: center;
+}
+
+.selfpeer .question-container {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    padding: 1%;
+    border: 1px solid #DEE2E6;
+}
+
+.selfpeer .buttonPosition {
+    margin-left: 20%;
+}
+
+.selfpeer .btnGhost {
+    border: 1px solid #D4D4D4;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: transparent;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color  ease;
+    left: 50%;
+}
+
+.selfpeer .btnGhost:hover {
+    background-color: #D4D4D4;
+    color: black;
+}
+
+.btnGhost.selected {
+    background-color: #3A89FD; /* Warna hijau sebagai tanda tombol telah dipilih */
+    color: white;
+}
+
+
+.selfpeer .submitButton {
+    margin-left: 210px;
+}
+
+.selfpeer .submitButton .submit {
+    background-color: #3A89FD;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    font-size: medium;
+    width: 120px;
+}
+
+.selfpeer .submitButton .submit:hover {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+.selfpeer .question-container-scale {
+    background-color: white;
+    float: right;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    width: 300px;
+    height: max-content;
+    border: 1px solid #DEE2E6;
+    font-size: 18px;
+}
+
+.selfpeer .question-container-scale h{
+    margin-left: 7%;
+}
+
+.selfpeer .question-container-scale .numberOne {
+    background-color: #FF0000;
+}
+
+.selfpeer .question-container-scale .numberTwo {
+    background-color: #FF720D;
+}
+
+.selfpeer .question-container-scale .numberThree {
+    background-color: #FFCA0D;
+}
+
+.selfpeer .question-container-scale .numberFour {
+    background-color: #9EFF00;
+}
+
+.selfpeer .question-container-scale .numberFive {
+    background-color: #12FF0D;
+}
+
+.selfpeer .question-container-scale .numberOne,
+.selfpeer .question-container-scale .numberTwo,
+.selfpeer .question-container-scale .numberThree,
+.selfpeer .question-container-scale .numberFour,
+.selfpeer .question-container-scale .numberFive {
+    border-radius: 50%;
+    padding: 3px 9px;
+    width: 3%;
+    text-wrap: nowrap;
+    word-spacing: px;
+    font-size: medium;
+    margin-left: 25px;
+    display: flex;
+}
